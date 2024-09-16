@@ -13,5 +13,7 @@
         <project path="vendor/xiaomi/sm6150-common" name="oseverest44/android_vendor_xiaomi_sm6150-common" remote="oseverest44" revision="14" />
         <project path="kernel/xiaomi/mojito" name="K4LCHAKRA/kernel_xiaomi_mojito" remote="mojito" revision="inline-rom" />
         <project path="hardware/xiaomi" name="BlissRoms-Devices/android_hardware_xiaomi" remote="mojito" revision="mojito" />
+        <remove-project name="frameworks_native" />
+        <project path="frameworks/native" name="K4LCHAKRA/frameworks_native" remote="mojito" revision="14" clone-depth="1" />
 
 </manifest>                                                                          
